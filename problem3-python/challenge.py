@@ -62,7 +62,7 @@ def validate_sequence(sequence):
     if len(sequence) < 2:
         return True
     
-    for i in range(2, len(sequence)) 
+    for i in range(2, len(sequence)):
         if sequence[i] != sequence[i-1] + sequence[i-2]:
             return False
     return True

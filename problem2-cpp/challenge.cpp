@@ -70,13 +70,13 @@ public:
 
     string generateClue(int sum)
     {
-        return "FIBONACCI_" + to_string(sum) 
+        return "FIBONACCI_" + to_string(sum);
     }
 };
 
 int main()
 {
-    VectorProcessor processor(); 
+    VectorProcessor processor; 
 
     int result = processor.processClue();
     cout << "Sum of values: " << result << endl;
@@ -89,6 +89,6 @@ int main()
 
 /*
 SOLUTION - PASTE YOUR CLUE HERE:
-Member Name: ________________
-Clue for Python problem: ________________
+Member Name: Shourya
+Clue for Python problem: FIBONACCI_0
 */
